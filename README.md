@@ -5,13 +5,19 @@ A written command line program that acts as a simple calculator: it takes a
 single argument as an expression and prints out the integer result of
 evaluating it.
 
-Assuming the program is implemented in Python, invocations should look like:
+This program is implemented in Python. Do run the program using any of the below methods:
 
-    $ ./calc.py 123
+    $ python calc.py 123
     123
 
-    $ ./calc.py "(add 12 12)"
+    $ python calc.py "(add 12 12)"
     24
+    
+    $ python calc.py "(add 1 (multiply (add 2 1) 3))"
+    10
+    
+    $ python calc.py "(multiply 2 (add (multiply 2 3) 8))"
+    28
 
 Expression syntax
 -----------------
